@@ -25,3 +25,10 @@ function Conditional ({count}){
 
 //Logical And
 {count && 2 ===0 ? <h1>Count is even</h1> :<h1>Count is odd</h1>};
+
+// Array Map
+const data = [
+    {
+       
+    }
+]
