@@ -6,9 +6,9 @@ function MyComponent(props){
 }
 <MyComponent name="Jeff" />
 
-function MyComponent{{name}}{
+function MyComponent({name}){
     return <P>{name}</P>
-}
+};
 <MyComponent name ={'JeffD'+ 23} />
 
 // Conditional rendering
@@ -21,7 +21,7 @@ function Conditional ({count}){
 }
 
 //Ternary Operator
-{ count % 2 ===0 ? <h1>Count is even</h1> : <h1>Count is odd</h1>}
+{ count % 2 ===0 ? <h1>Count is even</h1> : <h1>Count is odd</h1>};
 
 //Logical And
-{count && 2 ===0 ? <h1>Count is even</h1>}
+{count && 2 ===0 ? <h1>Count is even</h1> :<h1>Count is odd</h1>};
