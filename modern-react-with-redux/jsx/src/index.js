@@ -11,9 +11,15 @@ const root = ReactDOM.createRoot(el);
 
 // Create a component
 function App() {
-  return <h1>Hi There!</h1>;
+  //   let message = "By There!";
+  //   if (Math.random() > 0.5) {
+  //     message = "Hello there!";
+  //  }
+  //// const message = {}; //REACT DOESNT SHOW OBJECTS PROPERLY
+  ////// const message = 123123;
+  const message = [1, 2, 3];
+  return <h1>{message}</h1>;
 }
-
 // Show the component on the screen
 root.render(<App />);
 
