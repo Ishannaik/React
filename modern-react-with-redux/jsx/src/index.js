@@ -22,8 +22,16 @@ function App() {
   // return <h1>{messages}</h1>;
   // const date = new Date();
   // const time = date.toLocaleTimeString();
-  // return <h1>{time}</h1>;
-  return <h1>{new Date().toLocaleTimeString()}</h1>;
+  // // return <h1>{time}</h1>;
+  // return <h1>{new Date().toLocaleTimeString()}</h1>;
+  const name = "Ishan";
+  const age = 20;
+
+  return (
+    <h1>
+      Hi, my name is {name} and my age is {age}
+    </h1>
+  );
 }
 // Show the component on the screen
 root.render(<App />);
