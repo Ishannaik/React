@@ -33,22 +33,23 @@ function App() {
   //     </h1>
   //   );
   // }
-  const inputType = "number";
-  const minValue = -5;
-  const maxValue = 10;
-  const listValue = [1, 2, 3];
-  const styleValue = { backgroundColor: "lightblue" };
-  const message = "Enter a number";
-  return (
-    <input
-      type={inputType}
-      min={minValue}
-      max={maxValue}
-      list={listValue}
-      style={styleValue}
-      alt={message}
-    />
-  );
+  // const inputType = "number";
+  // const minValue = -5;
+  // const maxValue = 10;
+  // const listValue = [1, 2, 3];
+  // const styleValue = { backgroundColor: "lightblue" };
+  // const message = "Enter a number";
+  // return (
+  //   <input
+  //     type={inputType}
+  //     min={minValue}
+  //     max={maxValue}
+  //     list={listValue}
+  //     style={styleValue}
+  //     alt={message}
+  //   />
+  // );
+  return <textarea autoFocus={true} />;
 }
 // Show the component on the screen
 root.render(<App />);
