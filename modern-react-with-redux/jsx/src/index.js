@@ -17,8 +17,13 @@ function App() {
   //  }
   //// const message = {}; //REACT DOESNT SHOW OBJECTS PROPERLY
   ////// const message = 123123;
-  const message = [1, 2, 3];
-  return <h1>{message}</h1>;
+  //////// const message = [1, 2, 3];
+
+  // return <h1>{messages}</h1>;
+  // const date = new Date();
+  // const time = date.toLocaleTimeString();
+  // return <h1>{time}</h1>;
+  return <h1>{new Date().toLocaleTimeString()}</h1>;
 }
 // Show the component on the screen
 root.render(<App />);
