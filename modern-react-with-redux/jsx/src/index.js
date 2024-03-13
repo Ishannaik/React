@@ -24,13 +24,30 @@ function App() {
   // const time = date.toLocaleTimeString();
   // // return <h1>{time}</h1>;
   // return <h1>{new Date().toLocaleTimeString()}</h1>;
-  const name = "Ishan";
-  const age = 20;
+  //   const name = "Ishan";
+  //   const age = 20;
 
+  //   return (
+  //     <h1>
+  //       Hi, my name is {name} and my age is {age}
+  //     </h1>
+  //   );
+  // }
+  const inputType = "number";
+  const minValue = -5;
+  const maxValue = 10;
+  const listValue = [1, 2, 3];
+  const styleValue = { backgroundColor: "lightblue" };
+  const message = "Enter a number";
   return (
-    <h1>
-      Hi, my name is {name} and my age is {age}
-    </h1>
+    <input
+      type={inputType}
+      min={minValue}
+      max={maxValue}
+      list={listValue}
+      style={styleValue}
+      alt={message}
+    />
   );
 }
 // Show the component on the screen
