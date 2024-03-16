@@ -1,4 +1,10 @@
 import { useState } from "react";
+function getRandomAnimal() {
+  const animals = ["cat", "dog", "fish", "bird"];
+  return animals[Math.floor(Math.random() * animals.length)];
+}
+
+// console.log(getRandomAnimal());
 
 function App() {
   // Array Destructuring
@@ -13,15 +19,15 @@ function App() {
   // const [firstElement, secondElement] = makeArray();
   // console.log(firstElement, secondElement);
 
-  const [count, setCount] = useState(0);
+  const [animals, setAnimals] = useState([]);
 
   const handleClick = () => {
-    setCount(count + 1);
+    setAnimals([...animals, getRandomAnimal()]);
   };
   return (
     <div>
       <button onClick={handleClick}>Add Animal</button>
-      <div>Number of Animals: {count}</div>
+      <div>{animals}</div>
     </div>
   );
 }
