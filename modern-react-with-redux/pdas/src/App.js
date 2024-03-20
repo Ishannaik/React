@@ -1,12 +1,22 @@
 import ProfileCard from "./ProfileCard";
+import AlexaImage from "./images/alexa.png";
+import CortanaImage from "./images/cortana.png";
+import SiriImage from "./images/siri.png";
+
+console.log(AlexaImage);
+console.log(CortanaImage);
+console.log(SiriImage);
 
 function App() {
   return (
     <div>
-      <h1>Personal Digital Assistants</h1>
+      <div>Personal Digital Assistants</div>
+
+      <img src="https://picsum.photos/200/300" />
+
       <ProfileCard title="Alexa" handle="@alexa99" />
-      <ProfileCard title="Cortana" handle="@cortona32" />
-      <ProfileCard title="Siri" handle="@siri23" />
+      <ProfileCard title="Cortana" handle="@cortana32" />
+      <ProfileCard title="Siri" handle="@siri01" />
     </div>
   );
 }
