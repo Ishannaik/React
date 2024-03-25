@@ -9,6 +9,7 @@ function BookEdit({ book, onSubmit }) {
   const handleSubmit = (event) => {
     event.preventDefault();
     onSubmit(book.id, title);
+    console.log(book.id);
   };
 
   return (
