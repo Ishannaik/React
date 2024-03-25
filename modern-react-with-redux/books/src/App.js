@@ -11,6 +11,7 @@ function App() {
       }
       return book;
     });
+    setBooks(updatedBooks);
   };
   const deleteBookById = (id) => {
     const updatedBooks = books.filter((book) => {
