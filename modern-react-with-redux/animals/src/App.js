@@ -23,7 +23,7 @@ function App() {
     <div className="app">
       <button onClick={handleClick}>Add Animal</button>
       <div>{renderedAnimals}</div>
-    </div>
+    </div> 
   );
 }
 
