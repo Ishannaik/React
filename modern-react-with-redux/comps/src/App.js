@@ -1,10 +1,11 @@
 import Button from "./Button";
-
 function App() {
   return (
     <div>
       <div>
-        <Button>Hello</Button>
+        <Button success rounded outline>
+          Hello
+        </Button>
       </div>
       <div>
         <Button>Buy Now!</Button>
