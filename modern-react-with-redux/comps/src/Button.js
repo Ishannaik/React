@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 const Button = ({
   children,
   primary,
@@ -11,7 +10,9 @@ const Button = ({
 }) => {
   return (
     <div>
-      <button>{children}</button>
+      <button className=" px-3 py-2 border border-blue-600 bg-blue-500 text-white">
+        {children}
+      </button>
     </div>
   );
 };
