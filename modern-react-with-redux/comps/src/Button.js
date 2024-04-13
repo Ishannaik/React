@@ -1,9 +1,17 @@
-import React from "react";
-
-const Button = () => {
+const Button = ({
+  children,
+  primary,
+  secondary,
+  success,
+  warning,
+  danger,
+  outline,
+  rounded,
+}) => {
+  
   return (
     <div>
-      <button>APP</button>
+      <button>{children}</button>
     </div>
   );
 };
