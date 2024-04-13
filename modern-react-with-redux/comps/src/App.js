@@ -23,6 +23,21 @@ function App() {
       <div>
         <Button rounded>hahaha</Button>
       </div>
+      <div>
+        <Button success primary rounded>
+          hahaha
+        </Button>
+      </div>
+      <div>
+        <Button outline primary rounded>
+          hahaha
+        </Button>
+      </div>
+      <div>
+        <Button success warning rounded>
+          hahaha
+        </Button>
+      </div>
     </div>
   );
 }
