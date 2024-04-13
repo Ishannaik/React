@@ -9,19 +9,19 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button>Buy Now!</Button>
+        <Button primary>Buy Now!</Button>
       </div>
       <div>
-        <Button>See deal</Button>
+        <Button danger>See deal</Button>
       </div>
       <div>
-        <Button>Something</Button>
+        <Button secondary>Something</Button>
       </div>
       <div>
-        <Button>haha</Button>
+        <Button warning>haha</Button>
       </div>
       <div>
-        <Button>hahaha</Button>
+        <Button rounded>hahaha</Button>
       </div>
     </div>
   );
