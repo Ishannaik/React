@@ -7,11 +7,11 @@ const Dropdown = ({ options }) => {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (event) => {
+  const handleOptionClick = (option) => {
     // CLOSE THE DROPDOWN
     setIsOpen(false);
     // WHAT OPTION DID THE USER CLICK ON?
-    console.log(event);
+    console.log(option);
   };
 
   const renderedOptions = options.map((option) => {
