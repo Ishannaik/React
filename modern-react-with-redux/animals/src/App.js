@@ -16,7 +16,7 @@ function App() {
   };
 
   const renderedAnimals = animals.map((animal, index) => {
-    return <AnimalShow key={index} type={animal} />;
+    return  <AnimalShow key={index} type={animal} />;
   });
 
   return (
